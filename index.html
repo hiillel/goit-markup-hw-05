@@ -410,13 +410,27 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-container">
+          <p class="footer-form-title">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-form-label"
+              ><input type="email" placeholder="E-mail" class="footer-form-input" />
+            </label>
+            <button type="submit" class="footer-form-btn">
+              Subscribe
+              <svg class="footer-form-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-tgicon"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- modal -->
     <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn">
-          <svg class="modal-icon-btn" width="24" height="24">
+          <svg class="modal-icon-btn" width="8" height="8">
             <use href="./images/icons.svg#icon-close-x"></use>
           </svg>
         </button>
@@ -467,8 +481,12 @@
               value="true"
               required
             />
-            <label for="user-privacy" class="check-text"
-              ><span class="check-text-box"></span>I accept the terms and conditions of the
+            <label for="user-privacy" class="check-text">
+              <span class="check-text-box">
+                <svg class="check-box-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>I accept the terms and conditions of the
               <a href="" class="check-text-link">Privacy Policy</a></label
             >
           </div>
